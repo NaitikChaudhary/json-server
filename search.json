@@ -1,6 +1,45 @@
 {
     "widgets": [
         {
+            "widgetName": "widgetName 6",
+            "widgetType": "TEXT",
+            "data": {
+                "items": [
+                    {
+                        "text": "Search widgets are hard coded",
+                        "style": {
+                            "fontWeight": "bold",
+                            "fontSize": 18
+                        }
+                    }
+                ]
+            },
+            "widgetId": "4",
+            "viewMeta": {
+                "styles": {
+                    "paddingTop": 8,
+                    "paddingBottom": 8,
+                    "marginTop": 10
+                }
+            },
+            "header": {
+                "title": {
+                    "text": "Text widget",
+                    "style": {
+                        "fontSize": 16,
+                        "fontWeight": "bold",
+                        "color": "brown",
+                        "textAlign": "left"
+                    }
+                },
+                "viewMeta": {
+                    "styles": {
+                        "paddingHorizontal": 8
+                    }
+                }
+            }
+        },
+        {
             "widgetName": "widgetName 2",
             "widgetType": "HORIZONTAL_LIST",
             "data": {
