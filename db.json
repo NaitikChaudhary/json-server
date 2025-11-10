@@ -1,0 +1,297 @@
+{
+    "home": {
+        "widgets": [
+            {
+                "widgetName": "widgetName 1",
+                "widgetType": "BANNER_CAROUSEL",
+                "data": {
+                    "items": [
+                        {
+                            "image": {
+                                "url": "https://static.vecteezy.com/system/resources/thumbnails/003/692/291/small/of-12-12-big-sale-shopping-day-banner-with-blank-product-podium-scene-vector.jpg",
+                                "width": 100,
+                                "height": 100
+                            },
+                            "action": {
+                                "type": "OPEN_DEEPLINK",
+                                "data": {
+                                    "deeplink": "https://www.noon.com/details/:id?type=x"
+                                }
+                            }
+                        },
+                        {
+                            "image": {
+                                "url": "https://static.vecteezy.com/system/resources/previews/049/748/169/non_2x/3d-black-friday-big-sale-discount-template-banner-with-blank-space-3d-podium-for-product-sale-with-abstract-gradient-red-background-design-free-vector.jpg",
+                                "width": 100,
+                                "height": 100
+                            }
+                        }
+                    ]
+                },
+                "widgetId": "1"
+            },
+            {
+                "widgetName": "widgetName 2",
+                "widgetType": "HORIZONTAL_LIST",
+                "data": {
+                    "items": [
+                        {
+                            "id": "p1-blue-denim-jacket",
+                            "productImage": {
+                                "url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRIhcHosQMrVn_EQ8zsY2p1RM5zz_rpGg-J26rwNXEKiPwI7sZ9vtOboWf1DhU9FBQEj-aaKeTcIgnotth5rvreUnWxmG2h7ISJJYxl_PEA4uQ_lrEmxkry_xOtym3vT291VCw3qgYLoIA&usqp=CAc"
+                            },
+                            "name": "Blue Denim Jacket",
+                            "price": "₹1499",
+                            "tags": [
+                                "Bestseller",
+                                "Free Delivery"
+                            ]
+                        },
+                        {
+                            "id": "p2-classic-white-tee",
+                            "productImage": {
+                                "url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80"
+                            },
+                            "name": "Classic White Tee",
+                            "price": "₹799",
+                            "tags": [
+                                "Selling Fast"
+                            ]
+                        },
+                        {
+                            "id": "p3-green-chinos",
+                            "productImage": {
+                                "url": "https://images.unsplash.com/photo-1518933165971-611dbc9c412d?auto=format&fit=crop&w=400&q=80"
+                            },
+                            "name": "Green Chinos",
+                            "price": "₹1299",
+                            "tags": [
+                                "Limited Stock",
+                                "Free Delivery"
+                            ]
+                        },
+                        {
+                            "id": "p4-leather-wallet",
+                            "productImage": {
+                                "url": "https://images.unsplash.com/photo-1515548212457-8002f07a7b81?auto=format&fit=crop&w=400&q=80"
+                            },
+                            "name": "Leather Wallet",
+                            "price": "₹499",
+                            "tags": [
+                                "Top Rated"
+                            ]
+                        },
+                        {
+                            "id": "p5-canvas-sneakers",
+                            "productImage": {
+                                "url": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80"
+                            },
+                            "name": "Canvas Sneakers",
+                            "price": "₹999",
+                            "tags": []
+                        }
+                    ]
+                },
+                "widgetId": "2",
+                "header": {
+                    "title": {
+                        "text": "Featured Products",
+                        "style": {
+                            "fontSize": 16,
+                            "fontWeight": "600",
+                            "color": "#1e293b",
+                            "textAlign": "left"
+                        }
+                    },
+                    "description": {
+                        "text": "Check out the hottest picks for you this week!",
+                        "style": {
+                            "fontSize": 14,
+                            "color": "#1e293b",
+                            "textAlign": "left"
+                        }
+                    },
+                    "image": {
+                        "url": "https://www.merchandisinglibraries.com.au/wp-content/uploads/Hero-Wall-Signage-Disc-Top-Picks.png",
+                        "width": 50,
+                        "height": 50
+                    },
+                    "viewMeta": {
+                        "styles": {
+                            "paddingHorizontal": 8
+                        }
+                    }
+                },
+                "viewMeta": {
+                    "styles": {
+                        "paddingTop": 8,
+                        "paddingBottom": 8,
+                        "backgroundColor": "#ffefc2",
+                        "marginTop": 12
+                    }
+                }
+            },
+            {
+                "widgetName": "widgetName 3",
+                "widgetType": "HORIZONTAL_LIST",
+                "data": {
+                    "items": [
+                        {
+                            "id": "veg1-tomato",
+                            "productImage": {
+                                "url": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&w=100&q=80"
+                            },
+                            "name": "Fresh Tomatoes (1kg)",
+                            "price": "₹50",
+                            "tags": [
+                                "Farm Fresh",
+                                "Best Seller"
+                            ]
+                        },
+                        {
+                            "id": "veg2-spinach",
+                            "productImage": {
+                                "url": "https://images.pexels.com/photos/461431/pexels-photo-461431.jpeg?auto=compress&w=100&q=80"
+                            },
+                            "name": "Organic Spinach (250g)",
+                            "price": "₹35",
+                            "tags": [
+                                "100% Organic"
+                            ]
+                        },
+                        {
+                            "id": "veg3-baby-potatoes",
+                            "productImage": {
+                                "url": "https://images.pexels.com/photos/461424/pexels-photo-461424.jpeg?auto=compress&w=100&q=80"
+                            },
+                            "name": "Baby Potatoes (500g)",
+                            "price": "₹40",
+                            "tags": [
+                                "Limited Stock",
+                                "Free Delivery"
+                            ]
+                        },
+                        {
+                            "id": "veg4-brown-eggs",
+                            "productImage": {
+                                "url": "https://images.pexels.com/photos/208537/pexels-photo-208537.jpeg?auto=compress&w=100&q=80"
+                            },
+                            "name": "Brown Eggs (Pack of 12)",
+                            "price": "₹65",
+                            "tags": [
+                                "Top Rated"
+                            ]
+                        },
+                        {
+                            "id": "veg5-milk",
+                            "productImage": {
+                                "url": "https://images.pexels.com/photos/461246/pexels-photo-461246.jpeg?auto=compress&w=100&q=80"
+                            },
+                            "name": "Full Cream Milk (1L)",
+                            "price": "₹55",
+                            "tags": []
+                        }
+                    ]
+                },
+                "widgetId": "3",
+                "header": {
+                    "title": {
+                        "text": "Buy again",
+                        "style": {
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "color": "#1e293b",
+                            "textAlign": "left"
+                        }
+                    },
+                    "viewMeta": {
+                        "styles": {
+                            "paddingHorizontal": 8
+                        }
+                    }
+                },
+                "viewMeta": {
+                    "styles": {
+                        "paddingTop": 8,
+                        "paddingBottom": 8,
+                        "marginTop": 12
+                    }
+                }
+            },
+            {
+                "widgetName": "widgetName 4",
+                "widgetType": "HORIZONTAL_LIST",
+                "data": {
+                    "items": [
+                        {
+                            "id": "elc1-wireless-headphones",
+                            "productImage": {
+                                "url": "https://images.pexels.com/photos/856654/pexels-photo-856654.jpeg?auto=compress&w=100&q=80"
+                            },
+                            "name": "Wireless Headphones",
+                            "price": "₹2,499",
+                            "tags": [
+                                "Top Seller",
+                                "Bluetooth"
+                            ]
+                        },
+                        {
+                            "id": "elc2-smartphone-128gb",
+                            "productImage": {
+                                "url": "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&w=100&q=80"
+                            },
+                            "name": "Smartphone 6.5\" (128GB)",
+                            "price": "₹15,999",
+                            "tags": [
+                                "4G LTE",
+                                "128GB"
+                            ]
+                        },
+                        {
+                            "id": "elc3-bt-speaker",
+                            "productImage": {
+                                "url": "https://images.pexels.com/photos/325153/pexels-photo-325153.jpeg?auto=compress&w=100&q=80"
+                            },
+                            "name": "Bluetooth Speaker",
+                            "price": "₹1,399",
+                            "tags": [
+                                "Portable",
+                                "Long Battery"
+                            ]
+                        },
+                        {
+                            "id": "elc4-fitness-watch",
+                            "productImage": {
+                                "url": "https://images.pexels.com/photos/1054388/pexels-photo-1054388.jpeg?auto=compress&w=100&q=80"
+                            },
+                            "name": "Fitness Smartwatch",
+                            "price": "₹3,299",
+                            "tags": [
+                                "Water Resistant"
+                            ]
+                        },
+                        {
+                            "id": "elc5-dslr-24mp",
+                            "productImage": {
+                                "url": "https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg?auto=compress&w=100&q=80"
+                            },
+                            "name": "DSLR Camera (24MP)",
+                            "price": "₹22,499",
+                            "tags": [
+                                "High Resolution"
+                            ]
+                        }
+                    ]
+                },
+                "widgetId": "4",
+                "viewMeta": {
+                    "styles": {
+                        "paddingTop": 8,
+                        "paddingBottom": 8,
+                        "marginTop": 10
+                    }
+                }
+            }
+        ]
+    }
+}
