@@ -115,6 +115,55 @@
           "marginTop": 12
         }
       }
+    },
+    {
+      "widgetName": "widgetName 4",
+      "widgetType": "TEXT",
+      "data": {
+        "items": [
+          {
+            "text": "Item total: $100",
+            "style": {
+              "fontWeight": "bold",
+              "fontSize": 18
+            }
+          },
+          {
+            "text": "sample text values",
+            "style": {
+              "color": "#888",
+              "marginTop": 8
+            }
+          },
+          {
+            "text": "Free delivery applied"
+          }
+        ]
+      },
+      "widgetId": "4",
+      "viewMeta": {
+        "styles": {
+          "paddingTop": 8,
+          "paddingBottom": 8,
+          "marginTop": 10
+        }
+      },
+      "header": {
+        "title": {
+          "text": "Text widget",
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#1e293b",
+            "textAlign": "left"
+          }
+        },
+        "viewMeta": {
+          "styles": {
+            "paddingHorizontal": 8
+          }
+        }
+      }
     }
   ]
 }
