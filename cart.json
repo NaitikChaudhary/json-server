@@ -132,7 +132,7 @@
         },
         {
             "widgetName": "widgetName 3",
-            "widgetType": "HORIZONTAL_LIST",
+            "widgetType": "CART_ITEM",
             "data": {
                 "items": [
                     {
