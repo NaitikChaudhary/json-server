@@ -24,7 +24,7 @@
             },
             "header": {
                 "title": {
-                    "text": "Text widget",
+                    "text": "Text widget heading text",
                     "style": {
                         "fontSize": 16,
                         "fontWeight": "bold",
